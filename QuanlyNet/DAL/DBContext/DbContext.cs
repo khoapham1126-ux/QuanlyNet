@@ -1,4 +1,4 @@
-﻿using QuanlyNet.DAL.Entity;
+﻿using QuanLyNet.Entity;
 using System.Data.Entity;
 using System;
 using System.Collections.Generic;

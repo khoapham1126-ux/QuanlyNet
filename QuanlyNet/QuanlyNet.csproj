@@ -60,15 +60,12 @@
     <Compile Include="BLL\NguoiDungBLL.cs" />
     <Compile Include="BLL\PhienSuDungBLL.cs" />
     <Compile Include="DAL\DBContext\DbContext.cs" />
-    <Compile Include="DAL\Entity\MayTinh.cs" />
-    <Compile Include="DAL\Entity\NguoiDung.cs" />
-    <Compile Include="DAL\Entity\PhienSuDung.cs" />
     <Compile Include="DAL\MayTinhDAL.cs" />
     <Compile Include="DAL\NguoiDungDAL.cs" />
     <Compile Include="DAL\PhienSuDungDAL.cs" />
-    <Compile Include="DTO\MayTinhDTO.cs" />
-    <Compile Include="DTO\NguoiDungDTO.cs" />
-    <Compile Include="DTO\PhienSuDungDTO.cs" />
+    <Compile Include="Entity\MayTinh.cs" />
+    <Compile Include="Entity\NguoiDung.cs" />
+    <Compile Include="Entity\PhienSuDung.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
