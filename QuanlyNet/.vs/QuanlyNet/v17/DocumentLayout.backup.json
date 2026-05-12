@@ -1,0 +1,386 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\QuanlyNetC#\\QuanlyNet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6B344B41-1310-41E2-AF21-ADB212A64F0D}|QuanlyNet.csproj|d:\\quanlynetc#\\quanlynet\\dal\\dbcontext\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B344B41-1310-41E2-AF21-ADB212A64F0D}|QuanlyNet.csproj|solutionrelative:dal\\dbcontext\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B344B41-1310-41E2-AF21-ADB212A64F0D}|QuanlyNet.csproj|d:\\quanlynetc#\\quanlynet\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{6B344B41-1310-41E2-AF21-ADB212A64F0D}|QuanlyNet.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B344B41-1310-41E2-AF21-ADB212A64F0D}|QuanlyNet.csproj|d:\\quanlynetc#\\quanlynet\\dal\\entity\\maytinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B344B41-1310-41E2-AF21-ADB212A64F0D}|QuanlyNet.csproj|solutionrelative:dal\\entity\\maytinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B344B41-1310-41E2-AF21-ADB212A64F0D}|QuanlyNet.csproj|d:\\quanlynetc#\\quanlynet\\dal\\entity\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B344B41-1310-41E2-AF21-ADB212A64F0D}|QuanlyNet.csproj|solutionrelative:dal\\entity\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B344B41-1310-41E2-AF21-ADB212A64F0D}|QuanlyNet.csproj|D:\\QuanlyNetC#\\QuanlyNet\\dto\\nguoidungdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B344B41-1310-41E2-AF21-ADB212A64F0D}|QuanlyNet.csproj|solutionrelative:dto\\nguoidungdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B344B41-1310-41E2-AF21-ADB212A64F0D}|QuanlyNet.csproj|D:\\QuanlyNetC#\\QuanlyNet\\dto\\maytinhdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B344B41-1310-41E2-AF21-ADB212A64F0D}|QuanlyNet.csproj|solutionrelative:dto\\maytinhdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B344B41-1310-41E2-AF21-ADB212A64F0D}|QuanlyNet.csproj|d:\\quanlynetc#\\quanlynet\\dal\\entity\\phiensudung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B344B41-1310-41E2-AF21-ADB212A64F0D}|QuanlyNet.csproj|solutionrelative:dal\\entity\\phiensudung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B344B41-1310-41E2-AF21-ADB212A64F0D}|QuanlyNet.csproj|D:\\QuanlyNetC#\\QuanlyNet\\dto\\phiensudungdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B344B41-1310-41E2-AF21-ADB212A64F0D}|QuanlyNet.csproj|solutionrelative:dto\\phiensudungdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B344B41-1310-41E2-AF21-ADB212A64F0D}|QuanlyNet.csproj|D:\\QuanlyNetC#\\QuanlyNet\\dal\\maytinhdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B344B41-1310-41E2-AF21-ADB212A64F0D}|QuanlyNet.csproj|solutionrelative:dal\\maytinhdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B344B41-1310-41E2-AF21-ADB212A64F0D}|QuanlyNet.csproj|D:\\QuanlyNetC#\\QuanlyNet\\dal\\nguoidungdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B344B41-1310-41E2-AF21-ADB212A64F0D}|QuanlyNet.csproj|solutionrelative:dal\\nguoidungdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B344B41-1310-41E2-AF21-ADB212A64F0D}|QuanlyNet.csproj|D:\\QuanlyNetC#\\QuanlyNet\\dal\\phiensudungdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B344B41-1310-41E2-AF21-ADB212A64F0D}|QuanlyNet.csproj|solutionrelative:dal\\phiensudungdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B344B41-1310-41E2-AF21-ADB212A64F0D}|QuanlyNet.csproj|D:\\QuanlyNetC#\\QuanlyNet\\bll\\phiensudungbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B344B41-1310-41E2-AF21-ADB212A64F0D}|QuanlyNet.csproj|solutionrelative:bll\\phiensudungbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B344B41-1310-41E2-AF21-ADB212A64F0D}|QuanlyNet.csproj|D:\\QuanlyNetC#\\QuanlyNet\\bll\\maytinhbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B344B41-1310-41E2-AF21-ADB212A64F0D}|QuanlyNet.csproj|solutionrelative:bll\\maytinhbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B344B41-1310-41E2-AF21-ADB212A64F0D}|QuanlyNet.csproj|D:\\QuanlyNetC#\\QuanlyNet\\bll\\nguoidungbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B344B41-1310-41E2-AF21-ADB212A64F0D}|QuanlyNet.csproj|solutionrelative:bll\\nguoidungbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B344B41-1310-41E2-AF21-ADB212A64F0D}|QuanlyNet.csproj|d:\\quanlynetc#\\quanlynet\\view\\thongkeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6B344B41-1310-41E2-AF21-ADB212A64F0D}|QuanlyNet.csproj|solutionrelative:view\\thongkeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B344B41-1310-41E2-AF21-ADB212A64F0D}|QuanlyNet.csproj|D:\\QuanlyNetC#\\QuanlyNet\\view\\phiensudungform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6B344B41-1310-41E2-AF21-ADB212A64F0D}|QuanlyNet.csproj|solutionrelative:view\\phiensudungform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B344B41-1310-41E2-AF21-ADB212A64F0D}|QuanlyNet.csproj|D:\\QuanlyNetC#\\QuanlyNet\\view\\nguoidungform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6B344B41-1310-41E2-AF21-ADB212A64F0D}|QuanlyNet.csproj|solutionrelative:view\\nguoidungform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B344B41-1310-41E2-AF21-ADB212A64F0D}|QuanlyNet.csproj|D:\\QuanlyNetC#\\QuanlyNet\\view\\maytinhform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6B344B41-1310-41E2-AF21-ADB212A64F0D}|QuanlyNet.csproj|solutionrelative:view\\maytinhform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B344B41-1310-41E2-AF21-ADB212A64F0D}|QuanlyNet.csproj|D:\\QuanlyNetC#\\QuanlyNet\\view\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6B344B41-1310-41E2-AF21-ADB212A64F0D}|QuanlyNet.csproj|solutionrelative:view\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B344B41-1310-41E2-AF21-ADB212A64F0D}|QuanlyNet.csproj|D:\\QuanlyNetC#\\QuanlyNet\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6B344B41-1310-41E2-AF21-ADB212A64F0D}|QuanlyNet.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 175,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\QuanlyNetC#\\QuanlyNet\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "D:\\QuanlyNetC#\\QuanlyNet\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-05-06T04:11:29.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DbContext.cs",
+              "DocumentMoniker": "D:\\QuanlyNetC#\\QuanlyNet\\DAL\\DBContext\\DbContext.cs",
+              "RelativeDocumentMoniker": "DAL\\DBContext\\DbContext.cs",
+              "ToolTip": "D:\\QuanlyNetC#\\QuanlyNet\\DAL\\DBContext\\DbContext.cs",
+              "RelativeToolTip": "DAL\\DBContext\\DbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T04:10:45.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MayTinhDAL.cs",
+              "DocumentMoniker": "D:\\QuanlyNetC#\\QuanlyNet\\DAL\\MayTinhDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\MayTinhDAL.cs",
+              "ToolTip": "D:\\QuanlyNetC#\\QuanlyNet\\DAL\\MayTinhDAL.cs",
+              "RelativeToolTip": "DAL\\MayTinhDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T08:49:35.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MayTinhDTO.cs",
+              "DocumentMoniker": "D:\\QuanlyNetC#\\QuanlyNet\\DTO\\MayTinhDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\MayTinhDTO.cs",
+              "ToolTip": "D:\\QuanlyNetC#\\QuanlyNet\\DTO\\MayTinhDTO.cs",
+              "RelativeToolTip": "DTO\\MayTinhDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T08:39:27.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NguoiDungDAL.cs",
+              "DocumentMoniker": "D:\\QuanlyNetC#\\QuanlyNet\\DAL\\NguoiDungDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\NguoiDungDAL.cs",
+              "ToolTip": "D:\\QuanlyNetC#\\QuanlyNet\\DAL\\NguoiDungDAL.cs",
+              "RelativeToolTip": "DAL\\NguoiDungDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T08:49:48.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PhienSuDungDAL.cs",
+              "DocumentMoniker": "D:\\QuanlyNetC#\\QuanlyNet\\DAL\\PhienSuDungDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\PhienSuDungDAL.cs",
+              "ToolTip": "D:\\QuanlyNetC#\\QuanlyNet\\DAL\\PhienSuDungDAL.cs",
+              "RelativeToolTip": "DAL\\PhienSuDungDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T08:49:59.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PhienSuDungDTO.cs",
+              "DocumentMoniker": "D:\\QuanlyNetC#\\QuanlyNet\\DTO\\PhienSuDungDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\PhienSuDungDTO.cs",
+              "ToolTip": "D:\\QuanlyNetC#\\QuanlyNet\\DTO\\PhienSuDungDTO.cs",
+              "RelativeToolTip": "DTO\\PhienSuDungDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T08:41:04.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NguoiDungDTO.cs",
+              "DocumentMoniker": "D:\\QuanlyNetC#\\QuanlyNet\\DTO\\NguoiDungDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\NguoiDungDTO.cs",
+              "ToolTip": "D:\\QuanlyNetC#\\QuanlyNet\\DTO\\NguoiDungDTO.cs",
+              "RelativeToolTip": "DTO\\NguoiDungDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T08:40:46.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NguoiDung.cs",
+              "DocumentMoniker": "D:\\QuanlyNetC#\\QuanlyNet\\DAL\\Entity\\NguoiDung.cs",
+              "RelativeDocumentMoniker": "DAL\\Entity\\NguoiDung.cs",
+              "ToolTip": "D:\\QuanlyNetC#\\QuanlyNet\\DAL\\Entity\\NguoiDung.cs",
+              "RelativeToolTip": "DAL\\Entity\\NguoiDung.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T03:58:09.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MayTinh.cs",
+              "DocumentMoniker": "D:\\QuanlyNetC#\\QuanlyNet\\DAL\\Entity\\MayTinh.cs",
+              "RelativeDocumentMoniker": "DAL\\Entity\\MayTinh.cs",
+              "ToolTip": "D:\\QuanlyNetC#\\QuanlyNet\\DAL\\Entity\\MayTinh.cs",
+              "RelativeToolTip": "DAL\\Entity\\MayTinh.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T03:56:48.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PhienSuDungBLL.cs",
+              "DocumentMoniker": "D:\\QuanlyNetC#\\QuanlyNet\\BLL\\PhienSuDungBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\PhienSuDungBLL.cs",
+              "ToolTip": "D:\\QuanlyNetC#\\QuanlyNet\\BLL\\PhienSuDungBLL.cs",
+              "RelativeToolTip": "BLL\\PhienSuDungBLL.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T08:50:31.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MayTinhBLL.cs",
+              "DocumentMoniker": "D:\\QuanlyNetC#\\QuanlyNet\\BLL\\MayTinhBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\MayTinhBLL.cs",
+              "ToolTip": "D:\\QuanlyNetC#\\QuanlyNet\\BLL\\MayTinhBLL.cs",
+              "RelativeToolTip": "BLL\\MayTinhBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T08:50:09.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PhienSuDung.cs",
+              "DocumentMoniker": "D:\\QuanlyNetC#\\QuanlyNet\\DAL\\Entity\\PhienSuDung.cs",
+              "RelativeDocumentMoniker": "DAL\\Entity\\PhienSuDung.cs",
+              "ToolTip": "D:\\QuanlyNetC#\\QuanlyNet\\DAL\\Entity\\PhienSuDung.cs",
+              "RelativeToolTip": "DAL\\Entity\\PhienSuDung.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T03:57:56.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "NguoiDungBLL.cs",
+              "DocumentMoniker": "D:\\QuanlyNetC#\\QuanlyNet\\BLL\\NguoiDungBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\NguoiDungBLL.cs",
+              "ToolTip": "D:\\QuanlyNetC#\\QuanlyNet\\BLL\\NguoiDungBLL.cs",
+              "RelativeToolTip": "BLL\\NguoiDungBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T08:50:21.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ThongKeForm.cs [Design]",
+              "DocumentMoniker": "D:\\QuanlyNetC#\\QuanlyNet\\VIEW\\ThongKeForm.cs",
+              "RelativeDocumentMoniker": "VIEW\\ThongKeForm.cs",
+              "ToolTip": "D:\\QuanlyNetC#\\QuanlyNet\\VIEW\\ThongKeForm.cs [Design]",
+              "RelativeToolTip": "VIEW\\ThongKeForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T08:52:30.566Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "D:\\QuanlyNetC#\\QuanlyNet\\VIEW\\LoginForm.cs",
+              "RelativeDocumentMoniker": "VIEW\\LoginForm.cs",
+              "ToolTip": "D:\\QuanlyNetC#\\QuanlyNet\\VIEW\\LoginForm.cs [Design]",
+              "RelativeToolTip": "VIEW\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T08:51:50.103Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MayTinhForm.cs [Design]",
+              "DocumentMoniker": "D:\\QuanlyNetC#\\QuanlyNet\\VIEW\\MayTinhForm.cs",
+              "RelativeDocumentMoniker": "VIEW\\MayTinhForm.cs",
+              "ToolTip": "D:\\QuanlyNetC#\\QuanlyNet\\VIEW\\MayTinhForm.cs [Design]",
+              "RelativeToolTip": "VIEW\\MayTinhForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T08:52:05.112Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "NguoiDungForm.cs [Design]",
+              "DocumentMoniker": "D:\\QuanlyNetC#\\QuanlyNet\\VIEW\\NguoiDungForm.cs",
+              "RelativeDocumentMoniker": "VIEW\\NguoiDungForm.cs",
+              "ToolTip": "D:\\QuanlyNetC#\\QuanlyNet\\VIEW\\NguoiDungForm.cs [Design]",
+              "RelativeToolTip": "VIEW\\NguoiDungForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T08:52:13.143Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PhienSuDungForm.cs [Design]",
+              "DocumentMoniker": "D:\\QuanlyNetC#\\QuanlyNet\\VIEW\\PhienSuDungForm.cs",
+              "RelativeDocumentMoniker": "VIEW\\PhienSuDungForm.cs",
+              "ToolTip": "D:\\QuanlyNetC#\\QuanlyNet\\VIEW\\PhienSuDungForm.cs [Design]",
+              "RelativeToolTip": "VIEW\\PhienSuDungForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T08:52:21.364Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "D:\\QuanlyNetC#\\QuanlyNet\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "D:\\QuanlyNetC#\\QuanlyNet\\MainForm.cs [Design]",
+              "RelativeToolTip": "MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T08:31:34.737Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 42,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
