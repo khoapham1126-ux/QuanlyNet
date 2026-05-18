@@ -10,7 +10,7 @@ namespace QuanLyNet.Entity
     public class MayTinh
     {
         [Key]
-        public string MaMay { get; set; }
+        public int MaMay { get; set; }
         public string TenMay { get; set; }
         public string TrangThaiMay { get; set; }
         public decimal DonGiaTheoGio { get; set; }

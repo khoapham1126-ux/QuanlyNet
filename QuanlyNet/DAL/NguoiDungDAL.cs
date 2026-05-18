@@ -2,6 +2,7 @@
 using QuanLyNet.DAL.DBContext;
 using QuanLyNet.Entity;
 using System;
+using System.CodeDom;
 using System.Collections.Generic;
 using System.Data.Entity.Core.Metadata.Edm;
 using System.Linq;
@@ -58,6 +59,37 @@ namespace QuanlyNet.DAL
                 if (NguoiDung != null)
                 {
                     db.NguoiDungs.Remove(NguoiDung);
+                    db.SaveChanges();
+                }
+            }
+        }
+        public NguoiDung DangNhap(string taiKhoan, string matKhau)
+        {
+            using (var db = new QuanLyNetDbContext())
+            {
+                return db.NguoiDungs.FirstOrDefault(nd => nd.TaiKhoan == taiKhoan && nd.MatKhau == matKhau);
+            }
+        }
+        public void Naptien(string taiKhoan, decimal soTien)
+        {
+            using (var db = new QuanLyNetDbContext())
+            {
+                var nguoiDung = db.NguoiDungs.FirstOrDefault(nd => nd.TaiKhoan == taiKhoan);
+                if (nguoiDung != null)
+                {
+                    nguoiDung.SoDu += soTien;
+                    db.SaveChanges();
+                }
+            }
+        }
+        public void Trutien(string taikhoan, decimal soTien)
+        {
+            using (var db = new QuanLyNetDbContext())
+            {
+                var nguoiDung = db.NguoiDungs.FirstOrDefault(nd => nd.TaiKhoan == taikhoan);
+                if (nguoiDung != null)
+                {
+                    nguoiDung.SoDu -= soTien;
                     db.SaveChanges();
                 }
             }

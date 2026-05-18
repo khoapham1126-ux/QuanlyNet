@@ -10,7 +10,7 @@ namespace QuanLyNet.Entity
     public class NguoiDung
     {
         [Key]
-        public string MaNguoiDung { get; set; }
+        public int MaNguoiDung { get; set; }
         public string MatKhau { get; set; }
         public string HoTen { get; set; }
         public string SoDienThoai { get; set; }

@@ -62,17 +62,18 @@ namespace QuanlyNet.DAL
                 }
             }
         }
-        public void NapTien(decimal soTien,int maMay)
+        public void CapNhatTrangThai(int maMay, string trangThai)
         {
-            using(var db = new QuanLyNetDbContext())
+            using (var db = new QuanLyNetDbContext())
             {
                 var maytinh = db.MayTinhs.Find(maMay);
-                if(maytinh != null)
+                if (maytinh != null)
                 {
-                    maytinh.DonGiaTheoGio += soTien;
+                    maytinh.TrangThaiMay = trangThai;
                     db.SaveChanges();
                 }
             }
         }
+
     }
 }

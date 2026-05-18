@@ -48,14 +48,22 @@ namespace QuanlyNet.DAL
                 if (phien != null)
                 {
                     phien.GioKetThuc = DateTime.Now;
-                    TimeSpan time = phien.GioKetThuc.Value - phien.GioBatDau;
-                    decimal soGio = (decimal)time.TotalHours;
-                    phien.ThanhTien = soGio * phien.DonGiaTheoGio;
                     phien.TrangThai = true;
                     db.SaveChanges();
                 }
             }
         }
-        public bool KiemtraPhienDangSuDung(int )
+        public bool KiemtraPhienDangSuDung(int id)
+        {
+            using (var db = new QuanLyNetDbContext())
+            {
+                var phien = db.PhienSuDungs.Find(id);
+                if (phien != null)
+                {
+                    return !phien.TrangThai;
+                }
+                return false;
+            }
+        }
     }
 }

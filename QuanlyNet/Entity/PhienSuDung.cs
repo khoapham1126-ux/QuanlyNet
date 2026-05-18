@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,13 +12,15 @@ namespace QuanLyNet.Entity
     {
         [Key]
         [StringLength(20)]
-        public string MaPhien { get; set; }
+        public int MaPhien { get; set; }
 
+        [ForeignKey("MaNguoiDung")]
         [StringLength(20)]
-        public string MaNguoiDung { get; set; }
+        public int MaNguoiDung { get; set; }
 
+        [ForeignKey("MaMay")]
         [StringLength(20)]
-        public string MaMay { get; set; }
+        public int MaMay { get; set; }  
 
         public DateTime GioBatDau { get; set; }
         public DateTime? GioKetThuc { get; set; }
