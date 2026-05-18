@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace QuanlyNet.DAL
+namespace QuanLyNet.DAL
 {
     public class NguoiDungDAL
     {
@@ -25,6 +25,13 @@ namespace QuanlyNet.DAL
             using (var db = new QuanLyNetDbContext())
             {
                 return db.NguoiDungs.Find(id);
+            }
+        }
+        public NguoiDung getByTaiKhoan(string taiKhoan)
+        {
+            using (var db = new QuanLyNetDbContext())
+            {
+                return db.NguoiDungs.FirstOrDefault(nd => nd.TaiKhoan == taiKhoan);
             }
         }
         public void Add(NguoiDung nguoiDung)
@@ -47,6 +54,7 @@ namespace QuanlyNet.DAL
                     existingNguoiDung.SoDienThoai = nguoiDung.SoDienThoai;
                     existingNguoiDung.TaiKhoan = nguoiDung.TaiKhoan;
                     existingNguoiDung.SoDu = nguoiDung.SoDu;
+                    existingNguoiDung.VaiTro = nguoiDung.VaiTro;
                     db.SaveChanges();
                 }
             }
@@ -87,7 +95,7 @@ namespace QuanlyNet.DAL
             using (var db = new QuanLyNetDbContext())
             {
                 var nguoiDung = db.NguoiDungs.FirstOrDefault(nd => nd.TaiKhoan == taikhoan);
-                if (nguoiDung != null)
+                if (nguoiDung != null && nguoiDung.SoDu >= soTien)
                 {
                     nguoiDung.SoDu -= soTien;
                     db.SaveChanges();

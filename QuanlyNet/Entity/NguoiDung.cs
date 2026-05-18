@@ -16,5 +16,6 @@ namespace QuanLyNet.Entity
         public string SoDienThoai { get; set; }
         public string TaiKhoan { get; set; }
         public decimal SoDu { get; set; }
+        public string VaiTro { get; set; }
     }
 }

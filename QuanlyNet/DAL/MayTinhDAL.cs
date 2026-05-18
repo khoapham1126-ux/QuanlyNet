@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace QuanlyNet.DAL
+namespace QuanLyNet.DAL
 {
     public class MayTinhDAL
     {
@@ -42,7 +42,6 @@ namespace QuanlyNet.DAL
                 var exist = db.MayTinhs.Find(maytinh.MaMay);
                 if (exist != null)
                 {
-                    exist.MaMay = maytinh.MaMay;
                     exist.TenMay = maytinh.TenMay;
                     exist.TrangThaiMay = maytinh.TrangThaiMay;
                     exist.DonGiaTheoGio = maytinh.DonGiaTheoGio;

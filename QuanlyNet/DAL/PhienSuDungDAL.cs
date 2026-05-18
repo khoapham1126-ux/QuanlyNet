@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace QuanlyNet.DAL
+namespace QuanLyNet.DAL
 {
     public class PhienSuDungDAL
     {
@@ -40,7 +40,7 @@ namespace QuanlyNet.DAL
                 db.SaveChanges();
             }
         }
-        public void KetThucPhien(string maPhien)
+        public void KetThucPhien(int maPhien)
         {
             using (var db = new QuanLyNetDbContext())
             {

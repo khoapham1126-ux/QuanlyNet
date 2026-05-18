@@ -11,15 +11,12 @@ namespace QuanLyNet.Entity
     public class PhienSuDung
     {
         [Key]
-        [StringLength(20)]
         public int MaPhien { get; set; }
 
-        [ForeignKey("MaNguoiDung")]
-        [StringLength(20)]
+        [Required]
         public int MaNguoiDung { get; set; }
 
-        [ForeignKey("MaMay")]
-        [StringLength(20)]
+        [Required]
         public int MaMay { get; set; }  
 
         public DateTime GioBatDau { get; set; }
@@ -27,5 +24,11 @@ namespace QuanLyNet.Entity
         public decimal DonGiaTheoGio { get; set; }
         public decimal ThanhTien { get; set; }
         public bool TrangThai { get; set; }
+
+        [ForeignKey("MaNguoiDung")]
+        public virtual NguoiDung NguoiDung { get; set; }
+
+        [ForeignKey("MaMay")]
+        public virtual MayTinh MayTinh { get; set; }
     }
 }
